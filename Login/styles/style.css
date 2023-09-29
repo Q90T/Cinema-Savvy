@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@500&family=Rubik&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Heebo', sans-serif;
+}
+:root{
+    --lvl1-color: #222831;
+    --lvl2-color: #393E46;
+    --lvl3-color: #00ADB5;
+    --lvl4-color: #EEEEEE;
+    --text-color: #fff;
+    --shadow-color: rgba(0,0,0,0.3);
+}
+body{
+    background-color: var(--lvl2-color);
+    color: var(--text-color);
+}
+.bg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: var(--lvl2-color);  
+}

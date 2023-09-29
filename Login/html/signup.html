@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="stylesheet" href="/Login/styles/signup-style.css">
+    <link rel="stylesheet" href="/style/main.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+     <!--======navigation bar  -->
+     <div class="navBar">
+        <div class="nav">
+            <div class="menu-btn" id="access_nav" onclick="threeLinesAnimation(this)">
+                <div class="z">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+                </div>
+                <div class="menu">
+                    <span class="homeLink"><a class="homeLink" href="/html pages/home.html">Home</a></span>
+                    <ul>
+                        <li><a href="/html pages/anime savvy/home.html">--- Anime savvy ---</a></li>
+                        <li><a href="/html pages/movies.html">Movies</a></li>
+                        <li><a href="/html pages/series.html">Series</a></li>
+                        <li><a href="/html pages/about.html">About</a></li>
+                    </ul>    
+                </div>
+            </div>
+            <div class="logo">
+                <span><a href="/html pages/home.html">Cinema Savvy</a></span>
+            </div>
+        </div>
+        <div class="searchBox">
+            <div class="search">
+                <input type="text" placeholder="Search">
+            </div>
+            <div class="searchBtn">
+                <button>
+                 <i class='bx bx-search'></i>
+                </button>
+            </div>
+        </div>
+        <div class="nav">
+            <div class="login">
+                <a href="/Login/html/login.html" ><button>Login</button></a>
+            </div>
+            <div class="signup">
+                <a href="/Login/html/signup.html" target="_self"><button>Signup</button></a>
+            </div>
+        </div>
+    </div>
+    <!-- navigation bar end -->
+    <div class="bg">
+        <div class="container">
+            <span class="titel">Create an account</span>
+            <form action="#">
+                <span>Username:</span>
+                <div class="singin">
+                      <input type="text" placeholder="Username" required>
+                </div>
+                <span>Email:</span>
+                <div class="singin">
+                    <input type="email" placeholder="Email" required>
+                </div>                    <span>Password:</span>
+                <div class="singin">
+                    <input type="password" placeholder="Password"  required>                    </div>
+                    <span>Confirm Password:</span>
+                <div class="singin">
+                    <input type="password" placeholder="Confirm Password"  required>
+                 </div>
+                <div class="btn">
+                    <input type="submit" value="Signup">
+                </div>
+                <div class="login">Already have an account?
+                   <a href="login.html" >Login</a>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="/script.js"></script>
+</body>
+</html>

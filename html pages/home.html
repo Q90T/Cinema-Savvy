@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/home.css">
+    <link rel="stylesheet" href="/style/main.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="icon" type="image/png" sizes="32x32" href="">
+
+    <title>Cinema Savvy</title>
+</head>
+<body>
+    <!-- Context from Code Snippet style/home.css:/*navigation bar style*/ -->
+    <!--===navigation bar starts========================= -->
+    <div class="navBar">
+        <div class="nav">
+            <div class="menu-btn" id="access_nav" onclick="threeLinesAnimation(this)">
+                <div class="z">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+                </div>
+                <div class="menu">
+                    <span class="homeLink"><a class="homeLink" href="/html pages/home.html">Home</a></span>
+                    <ul>
+                        <li><a href="/html pages/anime savvy/home.html">--- Anime savvy ---</a></li>
+                        <li><a href="/html pages/movies.html">Movies</a></li>
+                        <li><a href="/html pages/series.html">Series</a></li>
+                        <li><a href="/html pages/about.html">About</a></li>
+                    </ul>    
+                </div>
+            </div>
+            <div class="logo">
+                <span><a href="/html pages/home.html">Cinema Savvy</a></span>
+            </div>
+        </div>
+        <div class="searchBox">
+            <div class="search">
+                <input type="text" placeholder="Search">
+            </div>
+            <div class="searchBtn">
+                <button>
+                 <i class='bx bx-search'></i>
+                </button>
+            </div>
+        </div>
+        <div class="nav">
+            <div class="login">
+                <a href="/Login/html/login.html" ><button>Login</button></a>
+            </div>
+            <div class="signup">
+                <a href="/Login/html/signup.html" target="_self"><button>Signup</button></a>
+            </div>
+        </div>
+    </div>
+    <!-- navigation bar end ==================================-->
+
+    <!-- imege slider starts===================-->
+    <div class="imege-slider">
+        <div class="slider">
+            <div class="slides">
+            <!-- radio buttons start========================-->
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+                <input type="radio" name="radio-btn" id="radio5">
+                <!-- radio buttons end===============================-->
+                <!-- slide imeges start================================-->
+                <div class="slide first">
+                    <a href=""><img src="/Slide show/Incebtion.jpg" alt=""></a>
+                </div>
+                <div class="slide">
+                    <a href=""><img src="/Slide show/interstellar.png" alt=""></a>
+                </div>
+                <div class="slide">
+                    <a href=""><img src="/Slide show/breaking bad.png" alt=""></a>
+                </div>
+                <div class="slide">
+                    <a href=""><img src="/Slide show/Top-Gun.png" alt=""></a>
+                </div>
+                <!-- slide imeges end================================-->
+
+                <!--auto navigation start============================-->
+                <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                    <div class="auto-btn4"></div>
+                </div>
+                <!--auto navigation end===============================-->
+
+
+            </div>
+            <!--manual navigation start============================-->
+            <div class="navigation-manual">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+                <label for="radio4" class="manual-btn"></label>
+            </div>
+            <!--manual navigation end===============================-->
+        </div>
+    </div>
+    <!--imege slider ends======================================-->
+    <div class="section-title">
+        <span>Popular Movies</span>
+    </div>
+    <!-- movise card section starts==========================-->
+    <div class="movies-cards-section">
+        <div class="movies-cards">
+            <div class="movie-card">
+                <div class="movie-img" >
+                    <a href=""><img src="/movies imeges/The dark night.jpeg" alt=""></a>
+                </div>
+                <div class="movie-title">
+                    <span>The dark night (2008)</span>
+                </div>
+            </div>
+            <div class="movie-card">
+                <div class="movie-img" >
+                    <a href=""><img src="/movies imeges/Inseption.jpg" alt=""></a>
+                </div>
+                <div class="movie-title">
+                    <span>Inseption</span>
+                </div>
+            </div>
+            <div class="movie-card">
+                <div class="movie-img" >
+                    <a href=""><img src="/movies imeges/lusca.jpeg" alt=""></a>
+                </div>
+                <div class="movie-title">
+                    <span>Luca</span>
+                </div>
+            </div>
+            <div class="movie-card">
+                <div class="movie-img" hover="scale(1.2)">
+                    <a href=""><img src="/Anime imeges/Hunter x Hunter (2011).jpg" alt=""></a>
+                </div>
+                <div class="movie-title">
+                    <span>Hunter x Hunter</span>
+                </div>
+            </div>
+            <div class="movie-card">
+                <div class="movie-img" >
+                    <a href=""><img src="/movies imeges/matrix.png" alt=""></a>
+                </div>
+                <div class="movie-title">
+                    <span>matrix</span>
+                </div>
+            </div>
+            <div class="movie-card">
+                <div class="movie-img" hover="scale(1.2)">
+                    <a href=""><img src="/movies imeges/tenet.jpg" alt=""></a>
+                </div>
+                <div class="movie-title">
+                    <span>Tenet</span>
+                </div>
+            </div>
+            <div class="movie-card">
+                <div class="movie-img" hover="scale(1.2)">
+                    <a href=""><img src="/Anime imeges/Chainsaw Man.jpg" alt=""></a>
+                </div>
+                <div class="movie-title">
+                    <span>Chainsaw Man</span>
+                </div>
+            </div>
+            <div class="movie-card">
+                <div class="movie-img" hover="scale(1.2)">
+                    <a href=""><img src="/Anime imeges/Code Geass: Hangyaku no Lelouch R2.jpg" alt=""></a>
+                </div>
+                <div class="movie-title">
+                    <span>Code Geass</span>
+                </div>
+            </div>
+            <div class="movie-card">
+                <div class="movie-img" hover="scale(1.2)">
+                    <a href=""><img src="/movies imeges/Interstellar.jpg" alt=""></a>
+                </div>
+                <div class="movie-title">
+                    <span>Interstellar</span>
+                </div>
+            </div>
+            <div class="movie-card">
+                <div class="movie-img" >
+                    <a href=""><img src="/movies imeges/The dark night.jpeg" alt=""></a>
+                </div>
+                <div class="movie-title">
+                    <span>The dark night (2008)</span>
+                </div>
+            </div>
+            <div class="movie-card">
+                <div class="movie-img" >
+                    <a href=""><img src="/movies imeges/Inseption.jpg" alt=""></a>
+                </div>
+                <div class="movie-title">
+                    <span>Inseption</span>
+                </div>
+            </div>
+            <div class="movie-card">
+                <div class="movie-img" >
+                    <a href=""><img src="/movies imeges/lusca.jpeg" alt=""></a>
+                </div>
+                <div class="movie-title">
+                    <span>Luca</span>
+                </div>
+            </div>
+            <div class="movie-card">
+                <div class="movie-img" hover="scale(1.2)">
+                    <a href=""><img src="/Anime imeges/Hunter x Hunter (2011).jpg" alt=""></a>
+                </div>
+                <div class="movie-title">
+                    <span>Hunter x Hunter</span>
+                </div>
+            </div>
+            <div class="movie-card">
+                <div class="movie-img" >
+                    <a href=""><img src="/movies imeges/matrix.png" alt=""></a>
+                </div>
+                <div class="movie-title">
+                    <span>matrix</span>
+                </div>
+            </div>
+            <div class="movie-card">
+                <div class="movie-img" hover="scale(1.2)">
+                    <a href=""><img src="/movies imeges/tenet.jpg" alt=""></a>
+                </div>
+                <div class="movie-title">
+                    <span>Tenet</span>
+                </div>
+            </div>
+            <div class="movie-card">
+                <div class="movie-img" hover="scale(1.2)">
+                    <a href=""><img src="/Anime imeges/Chainsaw Man.jpg" alt=""></a>
+                </div>
+                <div class="movie-title">
+                    <span>Chainsaw Man</span>
+                </div>
+            </div>
+            <div class="movie-card">
+                <div class="movie-img" hover="scale(1.2)">
+                    <a href=""><img src="/Anime imeges/Code Geass: Hangyaku no Lelouch R2.jpg" alt=""></a>
+                </div>
+                <div class="movie-title">
+                    <span>Code Geass</span>
+                </div>
+            </div>
+            <div class="movie-card">
+                <div class="movie-img" hover="scale(1.2)">
+                    <a href=""><img src="/movies imeges/Interstellar.jpg" alt=""></a>
+                </div>
+                <div class="movie-title">
+                    <span>Interstellar</span>
+                </div>
+            </div>
+            <div class="movie-card">
+                <div class="movie-img" >
+                    <a href=""><img src="/movies imeges/The dark night.jpeg" alt=""></a>
+                </div>
+                <div class="movie-title">
+                    <span>The dark night (2008)</span>
+                </div>
+            </div>
+            <div class="movie-card">
+                <div class="movie-img" >
+                    <a href=""><img src="/movies imeges/Inseption.jpg" alt=""></a>
+                </div>
+                <div class="movie-title">
+                    <span>Inseption</span>
+                </div>
+            </div>
+            <div class="movie-card">
+                <div class="movie-img" >
+                    <a href=""><img src="/movies imeges/lusca.jpeg" alt=""></a>
+                </div>
+                <div class="movie-title">
+                    <span>Luca</span>
+                </div>
+            </div>
+            <div class="movie-card">
+                <div class="movie-img" hover="scale(1.2)">
+                    <a href=""><img src="/Anime imeges/Hunter x Hunter (2011).jpg" alt=""></a>
+                </div>
+                <div class="movie-title">
+                    <span>Hunter x Hunter</span>
+                </div>
+            </div>
+            <div class="movie-card">
+                <div class="movie-img" >
+                    <a href=""><img src="/movies imeges/matrix.png" alt=""></a>
+                </div>
+                <div class="movie-title">
+                    <span>matrix</span>
+                </div>
+            </div>
+            <div class="movie-card">
+                <div class="movie-img" hover="scale(1.2)">
+                    <a href=""><img src="/movies imeges/tenet.jpg" alt=""></a>
+                </div>
+                <div class="movie-title">
+                    <span>Tenet</span>
+                </div>
+            </div>
+            <div class="movie-card">
+                <div class="movie-img" hover="scale(1.2)">
+                    <a href=""><img src="/Anime imeges/Chainsaw Man.jpg" alt=""></a>
+                </div>
+                <div class="movie-title">
+                    <span>Chainsaw Man</span>
+                </div>
+            </div>
+            <div class="movie-card">
+                <div class="movie-img" hover="scale(1.2)">
+                    <a href=""><img src="/Anime imeges/Code Geass: Hangyaku no Lelouch R2.jpg" alt=""></a>
+                </div>
+                <div class="movie-title">
+                    <span>Code Geass</span>
+                </div>
+            </div>
+            <div class="movie-card">
+                <div class="movie-img" hover="scale(1.2)">
+                    <a href=""><img src="/movies imeges/Interstellar.jpg" alt=""></a>
+                </div>
+                <div class="movie-title">
+                    <span>Interstellar</span>
+                </div>
+            </div>
+            <div class="movie-card">
+                <div class="movie-img" >
+                    <a href=""><img src="/movies imeges/The dark night.jpeg" alt=""></a>
+                </div>
+                <div class="movie-title">
+                    <span>The dark night (2008)</span>
+                </div>
+            </div>
+            <div class="movie-card">
+                <div class="movie-img" >
+                    <a href=""><img src="/movies imeges/Inseption.jpg" alt=""></a>
+                </div>
+                <div class="movie-title">
+                    <span>Inseption</span>
+                </div>
+            </div>
+            <div class="movie-card">
+                <div class="movie-img" >
+                    <a href=""><img src="/movies imeges/lusca.jpeg" alt=""></a>
+                </div>
+                <div class="movie-title">
+                    <span>Luca</span>
+                </div>
+            </div>
+            <div class="movie-card">
+                <div class="movie-img" hover="scale(1.2)">
+                    <a href=""><img src="/Anime imeges/Hunter x Hunter (2011).jpg" alt=""></a>
+                </div>
+                <div class="movie-title">
+                    <span>Hunter x Hunter</span>
+                </div>
+            </div>
+            <div class="movie-card">
+                <div class="movie-img" >
+                    <a href=""><img src="/movies imeges/matrix.png" alt=""></a>
+                </div>
+                <div class="movie-title">
+                    <span>matrix</span>
+                </div>
+            </div>
+            <div class="movie-card">
+                <div class="movie-img" hover="scale(1.2)">
+                    <a href=""><img src="/movies imeges/tenet.jpg" alt=""></a>
+                </div>
+                <div class="movie-title">
+                    <span>Tenet</span>
+                </div>
+            </div>
+            <div class="movie-card">
+                <div class="movie-img" hover="scale(1.2)">
+                    <a href=""><img src="/Anime imeges/Chainsaw Man.jpg" alt=""></a>
+                </div>
+                <div class="movie-title">
+                    <span>Chainsaw Man</span>
+                </div>
+            </div>
+            <div class="movie-card">
+                <div class="movie-img" hover="scale(1.2)">
+                    <a href=""><img src="/Anime imeges/Code Geass: Hangyaku no Lelouch R2.jpg" alt=""></a>
+                </div>
+                <div class="movie-title">
+                    <span>Code Geass</span>
+                </div>
+            </div>
+            <div class="movie-card">
+                <div class="movie-img" hover="scale(1.2)">
+                    <a href=""><img src="/movies imeges/Interstellar.jpg" alt=""></a>
+                </div>
+                <div class="movie-title">
+                    <span>Interstellar</span>
+                </div>
+            </div>
+            <div class="movie-card">
+                <div class="movie-img" >
+                    <a href=""><img src="/movies imeges/The dark night.jpeg" alt=""></a>
+                </div>
+                <div class="movie-title">
+                    <span>The dark night (2008)</span>
+                </div>
+            </div>
+            <div class="movie-card">
+                <div class="movie-img" >
+                    <a href=""><img src="/movies imeges/Inseption.jpg" alt=""></a>
+                </div>
+                <div class="movie-title">
+                    <span>Inseption</span>
+                </div>
+            </div>
+            <div class="movie-card">
+                <div class="movie-img" >
+                    <a href=""><img src="/movies imeges/lusca.jpeg" alt=""></a>
+                </div>
+                <div class="movie-title">
+                    <span>Luca</span>
+                </div>
+            </div>
+            <div class="movie-card">
+                <div class="movie-img" hover="scale(1.2)">
+                    <a href=""><img src="/Anime imeges/Hunter x Hunter (2011).jpg" alt=""></a>
+                </div>
+                <div class="movie-title">
+                    <span>Hunter x Hunter</span>
+                </div>
+            </div>
+            <div class="movie-card">
+                <div class="movie-img" >
+                    <a href=""><img src="/movies imeges/matrix.png" alt=""></a>
+                </div>
+                <div class="movie-title">
+                    <span>matrix</span>
+                </div>
+            </div>
+            <div class="movie-card">
+                <div class="movie-img" hover="scale(1.2)">
+                    <a href=""><img src="/movies imeges/tenet.jpg" alt=""></a>
+                </div>
+                <div class="movie-title">
+                    <span>Tenet</span>
+                </div>
+            </div>
+            <div class="movie-card">
+                <div class="movie-img" hover="scale(1.2)">
+                    <a href=""><img src="/Anime imeges/Chainsaw Man.jpg" alt=""></a>
+                </div>
+                <div class="movie-title">
+                    <span>Chainsaw Man</span>
+                </div>
+            </div>
+            <div class="movie-card">
+                <div class="movie-img" hover="scale(1.2)">
+                    <a href=""><img src="/Anime imeges/Code Geass: Hangyaku no Lelouch R2.jpg" alt=""></a>
+                </div>
+                <div class="movie-title">
+                    <span>Code Geass</span>
+                </div>
+            </div>
+            <div class="movie-card">
+                <div class="movie-img" hover="scale(1.2)">
+                    <a href=""><img src="/movies imeges/Interstellar.jpg" alt=""></a>
+                </div>
+                <div class="movie-title">
+                    <span>Interstellar</span>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer-content">
+            <div class="about">
+                <div class="cc">
+                    <h2>Anime Savvy</h2>
+                    <p>Copyright &copy; 2023</p>
+                    <span>Designed by <a href="https://github.com/Q90T">Ala</a></span>
+                </div>
+                
+            </div>
+            <div class="discreption">
+                    <span> Your Gateway to the World of Anime. Explore the fascinating realm of Japanese animation with us. Discover anime series, genres, and culture. Your one-stop resource for any thing about anime</span>
+                    <span>
+                    </div>
+            <div class="social">
+                <h1>Follow Me</h1>
+                <ul>
+                    <li><a href=""><i class='bx bxl-facebook'></i></a></li>
+                    <li><a href=""><i class='bx bxl-twitter'></i></a></li>
+                    <li><a href=""><i class='bx bxl-instagram'></i></a></li>
+                    <li><a href=""><i class='bx bxl-youtube'></i></a></li>
+                </ul>
+                <span>Made with <i class='bx bxs-heart' ></i></span>
+    
+            </div>
+            <span>
+                "Join us today to share your anime knowledge and passion with fellow enthusiasts! Together, we can make Anime Savvy a vibrant hub of information and discussion. Let's celebrate our love for anime together!"
+                <a href="/Login/html/signup.html">Join us</a>
+            </span>
+            
+            <div class="qrr">
+                <span>⇩ More projects here ⇩</span>
+                <div class="qr">
+                    <a href="/normal profile card/index.html" target="_blank"><img src="/qr-code.png" alt=""></a>
+                </div>
+            </div>
+
+        </div>
+       
+
+    </div>
+
+   
+    <script src="/script.js"></script>
+</body>
+</html>

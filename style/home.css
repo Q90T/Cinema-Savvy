@@ -1,0 +1,188 @@
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+/*img slider css starts*/
+.slides img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.imege-slider{
+    width: 100%;
+    height: 720px;
+    overflow: hidden;
+    
+}
+
+.silder{
+    width: 1250px;
+    height: 100%;
+
+}
+.slides{
+    width: 500%;
+    height: 720px;
+    display: flex;
+    overflow: hidden;
+
+}
+.slides input{
+    display: none;
+}
+.slide{
+    width: 20%;
+    transition: 2s;
+
+}
+/*manual navigation css starts*/
+
+.navigation-manual{
+    position: absolute;
+    width: 100%;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+}
+.manual-btn{
+    border: 2px solid var(--color-lvl-3);
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+.manual-btn:not(:last-child){
+    margin-right: 40px;
+}
+.manual-btn:hover{
+    background: var(--color-lvl-4);
+}
+
+
+#radio1:checked ~ .first{
+    margin-left: 0;
+}
+#radio2:checked ~ .first{
+    margin-left: -20%;
+}
+#radio3:checked ~ .first{
+    margin-left: -40%;
+}
+#radio4:checked ~ .first{
+    margin-left: -60%;
+}
+/* manual navigation css ends*/
+
+
+
+/*auto navigation css starts*/
+.navigation-auto{
+    position: absolute;
+    width: 100%;
+    margin-top: 680px;
+    display: flex;
+    justify-content: center;
+
+}
+.navigation-auto div{
+    border: 2px solid var(--color-lvl-3);
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 1s;
+
+}
+.navigation-auto div:not(:last-child){
+    margin-right: 40px;
+
+}
+#radio1:checked ~ .navigation-auto .auto-btn1{
+    background: var(--color-lvl-3);
+}
+#radio2:checked ~ .navigation-auto .auto-btn2{
+    background: var(--color-lvl-3);
+}
+#radio3:checked ~ .navigation-auto .auto-btn3{
+    background-color: var(--color-lvl-3);
+}
+#radio4:checked ~ .navigation-auto .auto-btn4{
+    background-color: var(--color-lvl-3);
+}
+
+/*auto navigation css ends*/
+
+
+/*section title css starts*/
+.section-title{
+    margin-top: 20px;
+    width: 100%;
+    height: 60px;
+    font-family: var(--titel-font);
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    
+    border-bottom: solid 1px var(--color-lvl-3);
+}
+/*section title css ends*/
+
+/*movise card section starts*/
+.movies-cards-section{
+    padding: 10px;
+    width: 75%;
+    height: 100%;
+    background-color: var(--color-lvl-2);
+}
+.movies-cards{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: auto;
+    grid-gap: 10px;
+    width: 100%;
+    height: 100%;
+
+}
+.movie-card{
+    display: grid;
+    grid-template-rows: 90% 10%;
+    width: 100%;
+    height: 100%;
+}
+.movie-card:hover{
+    cursor: pointer;
+    box-shadow: 0 0 10px 0 var(--shadow-color);
+
+}
+
+.movie-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+.movie-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.movie-title{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100%;
+    font-family: var(--titel-font);
+    background-color: var(--color-lvl-1);
+
+}
+
+.movie-title span{
+    color: var(--color-lvl-4);
+    font-family: var(--titel-font);
+}
+/*movise card section ends*/

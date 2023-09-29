@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+*{
+font-family: 'Rubik', sans-serif;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-color: #737C8D;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.Profile-card{
+    max-width: 370px;
+    width: 100%;
+    background-color: #00091A;
+    color : #fff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.89);
+    border-radius: 25px;
+    padding: 25px;
+    display: flex;
+   flex-direction: column;
+   position: relative;
+   align-items: center;
+}
+.Profile-card::before{
+    content: '';
+    top: 0;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    position: absolute;
+    height: 150px;
+    width: 100%;
+    background-color: #005AFF;
+}
+.image{
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    padding: 3px;
+    background-color: #005AFF;    ;
+    margin-bottom: 10px;
+}
+.pfp{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: solid 3px #03001f;
+}
+.Profile-card .data-text{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   color: #ffffff;
+}
+.data-text .name{
+    font-size: 25px;
+    font-weight: 600;
+}
+.data-text .bio{
+    font-size: 18px;
+    font-weight: 500;
+}
+.Profile-card .media-buttons{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+
+}
+
+.media-buttons .link{
+    text-decoration: none;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    transition: all 0.3s ease;
+    color: #fff;
+    font-size: 30px;
+}
+.media-buttons .link:hover{
+    font-size: 35px;
+}
+.media-buttons .git{
+    font-size: 35px;
+}
+.media-buttons .git :hover{
+    font-size: 40px;
+}
+.media-buttons .linkedin{
+    font-size: 25px;
+}
+.media-buttons .linkedin :hover{
+    font-size: 30px;
+}
+
+
+.media-buttons .reddit{
+    background-color: #F7460B;
+}
+
+
+.Profile-card .btns{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;    
+}
+
+.btns .btn{
+    background-color: #005AFF;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 25px;
+    border: 0;
+    font-size: 18px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.btns .btn:hover{
+    background-color: #002d81;
+}
+.Profile-card .contact{
+    margin-top: 50px;
+    font-size: 18px;
+}
+.email{
+    margin-bottom: 5px;
+}
+.Profile-card .contact .title{
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
